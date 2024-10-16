@@ -1,3 +1,5 @@
+
+/* Adding default styles for pages. Not sure how to do component based styling yet */
 * {
     margin: 0;
     background-color: black;
@@ -44,6 +46,7 @@ li {
     padding-top: 90px;
 }
 
+/* The Asta at the top of the landing page */
 .asta {
     margin-left: -50px;
 }
@@ -69,29 +72,6 @@ li {
     text-align: center;
 }
 
-.midsection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
 
-.Asta {
-    margin-right: 50px;
-}
 
-.Yuno {
-    margin-left: 50px;
-}
 
-.wrkdisplay {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.work2 {
-    margin-right: 250px;
-    margin-left: 250px;
-}
