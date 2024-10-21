@@ -47,4 +47,37 @@ console.log(sliced_fruit);
 const sliced_fruits = fruits.slice(7);
 console.log(sliced_fruits);
 
-// Will continue tomorrow
+// Another day of javascript let's go!
+const name = "amahle";
+const upper_name = name.toUpperCase();
+console.log(upper_name);
+
+// Trim method
+const massive_txt = "  Hello  ";
+const trim_txt = massive_txt.trim();
+console.log(trim_txt);
+
+// Repetition
+const apology = "I'm sorry. ";
+const apology_x100 = apology.repeat(100);
+console.log(apology_x100);
+
+// Replacement 
+const init_sent = "You are a genius!";
+const new_sent = init_sent.replace("a genius", "an idiot");
+
+console.log(new_sent);
+
+// Turning string into array
+const txt = "Hey I miss you";
+const splt_txt = txt.split(" ");
+console.log(splt_txt);
+
+//Comparison Let's Go!
+console.log(2<1);
+console.log(2==2);
+console.log(2===2);
+console.log(2*2>3);
+console.log(3.14 != 3.14159)
+
+// I'll do logical operators and conditionals tomorrow
