@@ -80,4 +80,16 @@ console.log(2===2);
 console.log(2*2>3);
 console.log(3.14 != 3.14159)
 
-// I'll do logical operators and conditionals tomorrow
+// Logical operators
+
+
+// II(OR) only for boolean
+
+const xane = false;
+const zane = true;
+
+if (xane || zane) {
+    console.log(`zane is online`);
+} else {
+    console.log(`invalid bruh`);
+}
