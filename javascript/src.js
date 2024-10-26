@@ -93,3 +93,46 @@ if (xane || zane) {
 } else {
     console.log(`invalid bruh`);
 }
+
+// if one of them is true then it will return a boolean of true
+if (1 || 0) {
+    // alert('truthy!');
+}
+
+// Testing if any of the conditions are true
+const hour = 9;
+const weekend = true;
+
+// It is too early to be in the office and it is the weekend
+if (hour <10 || hour >18 || weekend) {
+    // alert ("Office is currently closed")
+}
+
+// Checking if the person is online
+
+const wifi_connection = false;
+const on_site = false;
+
+// if (wifi_connection || on_site) {
+//     alert("User is online")
+// } else {
+//     alert ("User is offline")
+// }
+
+// Or (II) finds the first truthy value
+
+// && is AND
+//  Returns true if both values are true and false for everything else
+
+const internetConnection = true;
+const onSite = true;
+
+if (internetConnection == true && onSite == true) {
+    // alert("User is online");
+} else {
+    // alert ("User is offline");
+}
+
+// !(NOT)
+
+alert(!true)
