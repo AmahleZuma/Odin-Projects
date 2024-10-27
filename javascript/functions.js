@@ -8,3 +8,11 @@ function greetings() {
 }
 
 greetings();
+
+function lorry(color) {
+    return `${color} is the color of the lorry`;
+}
+
+alert(lorry("Blue"));
+
+// Parameter is the variable, the argument is the values you shove into the variable
